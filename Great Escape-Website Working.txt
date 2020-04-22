@@ -1,0 +1,48 @@
+The Great Escape – Website Working and Description of Entities
+
+At Great Escape, we have aimed to design an intuitive and responsive website to cater to the needs of all our potential customers.
+This document describes each section of the website in detail, and also elaborates on every feature included in the website.
+
+1.Common Navigation Bar:
+One of the most user-friendly features provide by us is the common Navigation Bar at the top of our website. This enables site visitors 
+to navigate from page to page effortlessly, without having to constantly keep stepping back to previous pages. 
+
+2.Login/Signup Pages:
+Every potential site visitor is given an option to Sign up for a free, Great Escape account on the Signup page. Existing users can simply
+ Login to their accounts on the Login page, or also change their existing password here. The users are also given password recovery options 
+by us, in case of a “Forgot Password” scenario.
+
+3.About Us page:
+The About Us page is accessible from the homepage, and talks about our agency and its inspiration to do things differently. The section is brief
+ and helps our customers truly understand our passion for travel and exploration.
+
+4.Homepage:
+Our elegant and highly informative homepage is the landing page for our entire website. Here, the customers are provided a host of options to browse
+ to, including the Login/Signup page, and a beautiful collection of images illustrating 12 scenic travel locations featured by us. 
+
+5.Location Specific Pages:
+From the homepage, the customers can now select any location of their choice and click on its image, to be greeted by a custom-made page for each 
+location, which feature in it a plethora of beautiful, location specific images, and insights into the speciality of the selected location.
+
+6.Booking Facilities:
+After viewing the locations, customers can zero in on a particular location of their liking and proceed to book their vacation. The Booking Page is accessible 
+from the Navigation Bar. On selecting it, they are presented with a choice of three packages, each offering its own unique features. From here, our customers 
+can pick any package of their liking. 
+
+7.Package Specific Pages:
+Once the customer has selected a package, they are redirected to its specific page. Here, they can customize the package with their preferred choice of hotels 
+and cities. A choice of hotels, along with their ratings is provided by us in this page. After finalizing their selection, the customer will be redirected to a 
+secure payment gateway, on clicking the “Make Payment” button to process their transaction.
+
+8.Payment and Confirmation:
+In the payment window, the customers are presented with a wide array of online payment options such as Debit, Credit cards and the increasingly robust and popular 
+UPI based payment. Customers can pick whichever payment mode suits them best and proceed with the transaction. A unique OTP is generated for each transaction, for 
+security purposes and sent to the registered number of the customer. After successful transaction, tickets for the package are generated and the customer can now download 
+them. Furthermore, a copy of the tickets is sent to their registered e-mail and a confirmation message from our end is sent to their mobile phone.
+
+9.Website Footer:
+The footer region of our website contains information pertaining to contact us, and also, the registered trademark of our agency.
+
+10.Miscellaneous Points:
+Our website is responsive for all device sizes, and is intuitive to use. It is server speed efficient and not resource heavy on any type of internet 
+connection. It also has cross browser and full OS/Browser compatibility.
