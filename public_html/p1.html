@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="bsm.css">
+        <title>The Great Escape</title>
+         <style>
+         .button {
+         background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+         body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+      </style>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a class="logo" href="aboutus.html"><img src="https://st2.depositphotos.com/1010751/11974/v/450/depositphotos_119743150-stock-illustration-sunrise-logo-design-vector-graphic.jpg" alt="" width="30" height="30"></a>
+                          <a class="navbar-brand" href="aboutus.html">The Great Escape</a>
+                        <ul class="nav navbar-nav navbar-right">
+                        <li><a href="menu.html"><span class="glyphicon glyphicon glyphicon-th-list"></span>Menu</a></li>
+                         <li><a href="booknow.html"><span class="glyphicon glyphicon-circle-arrow-right"></span>Book now</a></li>
+                         <li><a href="index.html"><span class="glyphicon glyphicon-film"></span>Home</a></li>
+                        <li><a href="aboutus.html"><span class="glyphicon glyphicon-align-justify"></span>About us</a></li>
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script><br><br><br><br><br><br><br><br>
+        <div class="container-sm container-md container-lg container-xl">
+            <div class="row">
+            <div class="col-sm-8">
+                <br><br><br>
+	   <h3>Package-1</h3>
+           <P>An extreme package to select a city of your wish and to enjoy the particular city's Beauty. Trip is for 2 days</P>
+           </div>
+                <div class="col-sm-4">
+                    <br><br>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.0MDxbbgsqJZ7Ex_h1f2HqQHaDt&pid=Api&P=0&w=302&h=152" alt="">
+                 </div>
+            </div>
+        </div><br><br><br>
+	<!--package-1-->
+    <center>
+	<label for="city">Enter the name of city</label>
+	<select id="city" name="favcity">
+        <option value="place">-----------</option>
+	<option value="Hyderabad">Hyderabad Rs.6000/-</option>
+	<option value="Warangal">Warangal Rs.6000/-</option>
+	<option value="Mumbai">Mumbai Rs.6000/-</option>
+	<option value="Bangalore">Bangalore Rs.6000/-</option>
+	<option value="Tirupathi">Tirupathi Rs.6000/-</option>
+	<option value="Vizag">Vizag Rs.6000/-</option>
+	<option value="Daman and Diu">Daman and Diu Rs.6000/-</option>
+	<option value"Chennai">Chennai Rs.6000/-</option>
+	<option value="Kanyakumari">Kanyakumari Rs.6000/-</option>
+	<option value="Goa">Goa Rs.6000/-</option>
+	<option value="ochin">Cochin Rs.6000/-</option>
+	<option value"Lakshdweep">Lakshdweep Rs.6000/-</option>
+	</select>
+        <label for="cities">Enter Hotel name</label>
+	<select id="cities" name="Two-Cities">
+          <option value="place">-----------------</option>
+	<option value="Hyderabad">ABC Hotel Rs.3000/-</option>
+	<option value="Warangal">XYZ Hotel Rs.3500/-</option>
+	<option value="Mumbai">AAA Hotel Rs.4000/-</option>
+	</select>
+</center>
+    <center>
+        <p>Hotel charges are per day with food charges*</p>
+    </center><br><br><br><br>
+     <div class="container ">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#">
+                        <div class="thumbnail">
+                            <img src="imgs/Ho.jpg" alt="" height="500" width="500">
+                            <div class="caption">
+                                <h3>ABC Hotel</h3>
+                                <p>Rating:3.5</p>
+                            </div>
+                        </div> 
+                    </a>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="#" >
+                        <div class="thumbnail">
+                            <img src="imgs/Ho2.jpg" alt="" height="500" width="500">
+                            <div class="caption">
+                                <h3>XYZ Hotel</h3>
+                                <p>Rating:4</p>
+                            </div>
+                        </div> 
+                    </a>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="#" >
+                        <div class="thumbnail">
+                            <img src="imgs/Ho3.jpg" alt="" height="500" width="500">
+                            <div class="caption">
+                                <h3>AAA Hotel</h3>
+                                <p>Rating:4.5</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+     </div><br><br><br>
+        <center>
+        <a href="payment.html" class="button">Make Payment</a>
+        <p>Payment includes hotel fares , trip charges and GST *</p>
+        </center><br><br>
+         <div>
+        <footer>     
+        <div class="container">
+            <center>
+        <p>Copyright © The Great Escape. All Rights Reserved | Contact Us: +91 90000 00000 </p>	
+            </center>
+        </div>
+        </footer>
+         </div>
+    </body>
+</html>
